@@ -6,7 +6,7 @@ public class EmendaRelator extends Emenda {
     public EmendaRelator(String ano, String autor, String tipo_emenda, String n_emenda, String localidade, String funcao, String subfuncao, String prog_orcamentario, String acao_orcamentaria, String plano_orcamentario, String cod_emenda, double valor_empenhado, double valor_liquidado, double valor_pago, double restos_inscritos, double restos_cancelados, double restos_pagos){
         super();
         this.apoiador_solicitante = apoiador_solicitante;
-        this.nome_deputado = nome_deputado;
+        this.relator = relator;
     }
     
     public String getApoiador_solicitante(){
